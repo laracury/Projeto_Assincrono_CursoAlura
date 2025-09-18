@@ -121,6 +121,7 @@ textarea {
     
 .lista-tags {
     display: flex;
+    gap: 8px;
 }
 
 .container-botoes {
@@ -188,14 +189,16 @@ textarea {
 .main-imagem {
     border-radius: 8px;
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .container-imagem {
     height: 368px;
-    padding: 24px 16px;
+    width: 368px;
+    padding: 8px;
     background-color: var(--secondary-color);
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .container-upload-imagem button {
@@ -204,7 +207,7 @@ textarea {
     border: 1px solid var(--secondary-color);
     border-radius: 8px;
     color: var(--secondary-color);
-    width: 100%;
+    width: 368px;
     text-align: center;
     padding: 12px;
     font-family: var(--font-family);
