@@ -231,6 +231,7 @@ textarea {
 }
 
 .container-imagem-nome {
+    width: 368px;
     display: flex;
     gap: 8px;
     color: var(--secondary-color);
